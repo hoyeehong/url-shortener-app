@@ -1,0 +1,53 @@
+html {
+  font-family: "Inter var", sans-serif;
+}
+
+.app-header {
+  margin: 10px auto;
+}
+
+a:link,
+a:visited {
+  color: green;
+}
+
+.error-msg {
+  color: rgb(238, 18, 18);
+}
+
+body {
+  background: white;
+}
+
+.app {
+  position: relative;
+  width: 70%;
+  margin: 10px auto;
+  background: #fff;
+  padding: 40px;
+  border-radius: 7px;
+}
+
+.form-grouping {
+  padding: 15px;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  color: rgb(255, 255, 255);
+  background-color: rgb(46, 95, 125);
+  cursor: pointer;
+  transition: border-color 0.25s;
+  margin: 10px auto;
+}
