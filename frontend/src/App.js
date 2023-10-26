@@ -26,10 +26,10 @@ function App() {
         url: `${process.env.REACT_APP_HOSTNAME}${process.env.REACT_APP_ENDPOINT}`,
         data: { origUrl: formData.url },
       }).then((response) => {
-        if (response.status === 200) {
-          setMsg(response.data);
-          // console.log(response.data);
-        }
+        // if (response.status === 200) {
+        setMsg(response.data);
+        console.log(response.data);
+        // }
       });
     } catch (err) {
       if (err.message) setErrMsg(err.message);
