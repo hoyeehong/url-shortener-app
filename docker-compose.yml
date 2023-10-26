@@ -1,0 +1,25 @@
+version: "3.4"
+
+services:
+  backend-api:
+    image: backend-api
+    build:
+      context: backend
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+      MONGO_URI: mongodb+srv://restricted_user2:Wsufm3KoOd4ahOhx@cluster0.w8ogeew.mongodb.net/urlDB?retryWrites=true&w=majority
+      PORT: 3333
+      BASE: http://localhost:3333
+    ports:
+      - 3333:3333
+
+  frontend-app:
+    image: frontend-app
+    build:
+      context: frontend
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
