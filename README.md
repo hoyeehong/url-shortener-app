@@ -20,7 +20,7 @@ Under [backend](/backend/) directory:
 npm run dev
 ```
 
-Access API hostname at http://localhost:3333/_{endpoint}_
+Access API hostname at http://localhost:3333/ _{endpoint}_
 
 - endpoint: _api/short_
 - endpoint: _urlId_
