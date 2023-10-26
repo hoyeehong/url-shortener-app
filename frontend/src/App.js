@@ -26,7 +26,7 @@ function App() {
         url: `${process.env.REACT_APP_HOSTNAME}${process.env.REACT_APP_ENDPOINT}`,
         data: { origUrl: formData.url },
       }).then((response) => {
-        if (response.statusText === "OK") {
+        if (response.status === 200) {
           setMsg(response.data);
           // console.log(response.data);
         }
