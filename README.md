@@ -1,6 +1,6 @@
 # URL Shortener App
 
-**Frontend App hosted at: https://url-shortener-frontend-vyaw.onrender.com**
+**Frontend App hosted at: https://url-shortener-frontend-vyaw.onrender.com** (Frontend works at Firefox browser)
 
 Backend services hosted at: https://url-shortener-backend-services.onrender.com
 
